@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome admin</title>
+
+     {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/admin.css'%}">
+
+</head>
+<body>
+ <h1 id="userid">welcome {{name}}</h1>
+<div class="sidebar">
+<ul class="nav1">
+
+  <li><a id="rq1">Requests</a></li>
+
+  <li><a id="strq">Stop Requests</a></li>
+  <li><a href="/exp/">Export</a></li>
+  <li><a id="acrec" >Accepted</a></li>
+    <li><a id="insro" >New Rooms</a></li>
+</ul>
+</div>
+ <div class="req1">
+<ul id="listreq">
+   <li>user</li>
+    <div class="round1"> <button >🗸</button></div>
+    <div class="round2">
+         <button ></button>
+    </div>
+    <div class="reqroom"><h1>A704</h1></div>
+</ul>
+</div>
+ <div id="maincont">
+<!--<div id="container2">
+<h1 class="records">USER -------- A01</h1>
+<h1 class="records">USER -------- A01</h1>
+
+
+</div>-->
+ </div>
+<div id="form1">
+     <form action="" method="post">
+    {% csrf_token %}
+
+     {{ form.as_p }}
+
+     <div class="form-group" id="button1">
+    <input type="submit" value="Insert" id="btni" class="button-37" >
+     </div>
+ </form>
+
+</div>
+</body>
+ {% load static %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+{% load static %}
+<script src="{% static '/js/admin.js' %}"></script>
+</html>

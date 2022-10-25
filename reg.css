@@ -1,0 +1,94 @@
+.regbox {
+
+position: absolute;
+
+    top:0;
+    bottom: 0;
+    left: 60px;
+    right: 0;
+
+    margin: auto;
+
+
+width : 400px;
+height : 500px;
+border : 0px solid black;
+border-radius: 40px 8px 40px 8px;
+background:white;
+box-shadow: rgba(219, 70, 159, 0.50) 10px 3px 15px,rgba(58, 153, 242, 0.50) 0px 10px 20px ;
+}
+
+
+.form2{
+position: relative;
+top:60px;
+left:40px;
+}
+body {
+ background-image: url('/static/images/bg.jpg');
+ }
+#button2{
+position:relative;
+top:40px;
+left:100px;
+
+
+}
+.regbox .circle2 #logimg{
+  position:absolute;
+  margin:auto;
+  top: -650px;
+  width:320px;
+  height:320px;
+  right: -150px;
+  bottom:-90px;
+
+}
+.regbox .la1{
+
+position:relative;
+top:100px;
+left:100px;
+
+color:black;
+
+}
+
+
+.nav1
+{list-style-type:none;
+ margin-top:0px;
+ padding:0;
+  width: 170px;
+  height : 800px;
+  border : 0px dashed #d7429b;
+  border-radius: 0px 0px 0px 5px;
+  backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+  border-radius: 0px 20px 20px 5px;
+  background-color: rgba(199, 66, 220, 0.28);
+  display: block;
+box-shadow: rgba(219, 70, 159, 0.30) 7px -4px 16px  10px, rgba(58, 153, 242, 0.40) 6px 2px 10px 0px;}
+
+
+.nav1 li a
+{
+  display:block;
+
+  width: inherit;
+  height: 100px;
+  color: white !important;
+  padding: 60px 40px 90px;
+  text-decoration: none;
+  font-family:Arial;
+  font-size: 25px;
+  border-radius: 0px 0px 0px 5px;
+}
+.nav1 li a:hover {
+ background-color: rgba(213, 93, 232, 0.82);
+  color : white !important;
+  opacity : 0.5;
+
+
+
+}

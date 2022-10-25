@@ -1,0 +1,273 @@
+body {
+ background-image: url('/static/images/bg.jpg');
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ .iconrm{
+ position:absolute;
+ top:7px;
+ left:20px;
+ width:25px;
+ height:25px;
+
+ }
+ .countroom1{
+ display: flex;
+position:absolute;
+top:10px;
+right:20px;
+justify-content:center;
+
+border: .5px solid white;
+width:130px;
+height:40px;
+background:rgba(237, 57, 111, 1);
+border-radius:25px;
+animation: expand .5s ease-out;
+animation-fill-mode: both;
+
+ }
+  .countroom1 #rmc{
+ position:absolute;
+ top:7px;
+ right:20px;
+ font-family: "Monaco", monospace;
+ font-size: 20px;
+ color:white;
+ }
+   .countroom1 #rmcc {
+position:relative;
+ top:80px;
+ right:30px;
+ font-family: "Monaco", monospace;
+ font-size: 50px;
+ color:white;
+ opacity:0;
+  animation: coin .5s ;
+ animation-delay: .5s;
+ animation-fill-mode:both;
+ }
+    .countroom1 p{
+position:absolute;
+ top:180px;
+ right:160px;
+
+ font-family: "Monaco", monospace;
+ font-size: 50px;
+ color:white;
+ opacity:0;
+  animation: coin .5s ;
+ animation-delay: .5s;
+ animation-fill-mode:both;
+ }
+ @keyframes coin{
+ 0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+ @keyframes expand{
+    to{
+        width:1200px;
+        height:750px;
+
+    }
+
+
+ }
+ .countroom #rmc {
+ position:absolute;
+ top:7px;
+ right:20px;
+ font-family: "Monaco", monospace;
+ font-size: 20px;
+ color:rgba(237, 57, 111, 1)
+ }
+
+.countroom{
+display: flex;
+position:absolute;
+top:10px;
+right:20px;
+justify-content:center;
+border: 0.5px solid rgba(237, 57, 111, 1);
+
+width:130px;
+height:40px;
+background:white;
+border-radius:25px;
+
+
+
+
+
+
+}
+.nav1
+{list-style-type:none;
+ margin-top:0px;
+ padding:0;
+  width: 170px;
+  height : 770px;
+  border : 0px dashed #d7429b;
+  backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+  border-radius: 0px 20px 20px 5px;
+  background-color: rgba(255, 255, 255, 0.28);
+  border-right: 1px solid rgba(255, 255, 255, 0.51);
+  display: block;
+/*box-shadow: rgba(219, 70, 159, 0.30) 7px -4px 16px  10px, rgba(58, 153, 242, 0.40) 6px 2px 10px 0px;*/
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);}
+
+.logbox .inval label#inval1 {
+position:absolute;
+color:red;
+left: 190px;
+top: 350px;
+ visibility: hidden;
+}
+
+.nav1 li a
+{
+  display:block;
+
+  width: inherit;
+  height: 100px;
+  color: white !important;
+  padding: 60px 40px 90px;
+  text-decoration: none;
+  font-family:Arial;
+  font-size: 25px;
+  border-radius: 0px 0px 0px 5px;
+}
+.nav1 li a:hover {
+     width : 180px;
+  background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(50px);
+  color : rgba(237, 57, 111, 1) !important;
+  opacity : 0.5;
+  border-radius: 0px 20px 20px 5px;
+
+
+
+}
+
+.logbox {
+
+position: absolute;
+
+    top:100px;
+    bottom: 0;
+    left: 70px;
+    right: 0;
+
+    margin: auto;
+
+width : 600px;
+height : 400px;
+background-color:white;
+border-color : 0px solid black;
+border-radius: 40px 8px 40px 8px;
+/* box-shadow: rgba(219, 70, 159, 0.50) 10px 3px 15px,rgba(58, 153, 242, 0.50) 0px 10px 20px ;*/
+}
+.logbox #form1 {
+  position: relative;
+   top:150px;
+    bottom: 0;
+    left: 150px;
+    right: 0;
+
+    margin: auto;
+}
+
+#button1{
+position:relative;
+
+left:110px;
+top:30px;
+
+}
+.logbox #fpass {
+position:relative;
+ top:10px;
+
+}
+ .logbox .circle1 {
+position: absolute;
+left: 35%;
+  bottom:300px;
+  width: 200px;
+
+    height: 200px;
+    background-color: white;
+    border-radius:50%;
+    box-shadow: rgb(102, 153, 255) 0px -10px 30px 0px;
+     animation: mov 1s infinite alternate;
+}
+.logbox .circle1 #logimg{
+  position:inherit;
+  margin:auto;
+  top: -50px;
+  width:320px;
+  height:320px;
+  right: -55px;
+  bottom:-45px;
+
+}
+.logbox .round1 {
+position:relative;
+ border-radius: 70px 0px 70px 70px;
+
+  padding: 20px;
+  width: 120px;
+  height: 70px;
+  left: 480px;
+  top: 158px;
+  box-shadow: -4px -0px 30px -20px black;
+}
+
+.logbox .reg  a {
+position :relative;
+color : #DB469F;
+
+font-family: "Monaco", monospace;
+font-size: 15px;
+ left: 485px;
+  top: 110px;
+}
+
+@keyframes mov{
+
+from {
+         box-shadow: rgb(243, 153, 255) 0px -10px 30px 0px,rgb(236, 68, 162) 10px 0px 40px 0px;
+
+
+}
+50%{
+
+}
+to{
+
+           box-shadow: rgb(243, 153, 255) 0px -10px 90px 0px,rgb(236, 68, 162) 20px 30px 80px 0px;
+
+}
+
+
+}
